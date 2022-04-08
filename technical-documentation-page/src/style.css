@@ -1,0 +1,109 @@
+/** General **/
+
+@media only screen and (max-width: 815px) {
+  /* For mobile phones: */
+  #navbar ul {
+    height: 207px;
+  }
+}
+
+.center-align {
+  text-align: center;
+}
+
+.padding {
+  padding-top: 20px;
+}
+
+.item-title {
+  font-size: 18px;
+  text-decoration: underline;
+}
+
+/** Navigation Bar **/
+
+#navbar {
+  position: fixed;
+  min-width: 350px;
+  top: 0px;
+  left: 0px;
+  width: 250px;
+  height: 100%;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: aliceblue;
+}
+
+#navbar header {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  color: cornflowerblue;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#navbar li {
+  list-style-type: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 5px solid PaleGoldenRod;
+  border-bottom-right-radius: 60%;
+  border-width: 100%;
+  position: relative;
+  width: 100%;
+}
+
+#navbar a {
+  text-decoration: none;
+  color: black;
+}
+
+#by {
+  font-family: "Consolas", monospace;
+  text-align: center;
+  margin-top: 50px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+/** Article **/
+
+#main-doc {
+  margin-left: 370px;
+  font-family: "Segoe UI", sans-serif;
+}
+
+#main-doc header {
+  background-color: cornflowerblue;
+  border-bottom-right-radius: 40%;
+  padding: 10px;
+  font-size: 20px;
+  margin-top: 30px;
+  font-weight: 1.5;
+}
+
+#main-doc p {
+  padding-top: 15px;
+}
+
+#main-doc li {
+  padding-top: 15px;
+}
+
+.div-code {
+  background-color: PaleGoldenRod;
+  color: black;
+  max-width: 50%;
+  margin: 0 auto;
+  padding: 10px;
+  text-align: left;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding-left: 30px;
+  border-bottom-right-radius: 15%;
+  border-top-left-radius: 15%;
+}
+
+.div-code a {
+  color: black;
+}

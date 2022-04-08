@@ -1,0 +1,95 @@
+* {
+	font-family: lucida console;
+  border-radius: 5px;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+	page-width: 100%;
+	background-image: url(https://thumbs.dreamstime.com/b/watercolor-paper-texture-background-natural-tinted-beautiful-art-craft-white-watercolour-delicate-soft-facture-172691411.jpg);
+	background-color: white;
+	}
+
+footer {
+	page-width: 100%;
+	text-align: center;
+	background-color: black;
+	color: white;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+form {
+  width: 60vw;
+	max-width: 600px;
+	min-width: 300px;
+	margin: 0 auto;
+  padding-bottom: 2em;
+}
+
+label {
+	display: block;
+	margin-left: 2em;
+	margin-top: 10px;
+}
+
+fieldset {
+	padding: 6px;
+	margin-bottom: 20px;
+	background-color: BurlyWood;
+  padding: 20px;
+}
+
+select, input {
+	background-color: white;
+}
+
+h3, .notes {
+	margin-left: 2em;
+}
+
+.instructions {
+	background-color: LightGoldenRodYellow;
+	margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.header {
+	background-color: black;
+  padding: 20px;
+}
+
+.title, .description {
+  text-align: center;
+  color: white;
+}
+
+.select {
+	display: inline-block;
+}
+
+.mark, {
+	display: block;
+	margin-left: 2em;
+}
+
+.check {
+	margin-left: 2.5em;
+	margin-top: 10px;
+}
+
+.submit-button {
+	width: 100%;
+  background-color: chocolate;
+  padding: 5px;
+  font-size: 16px;
+  border-radius: 10px;
+  
+}
+
+a {
+  color: white;
+}

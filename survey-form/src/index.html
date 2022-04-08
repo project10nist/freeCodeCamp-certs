@@ -1,0 +1,48 @@
+<div class="form"></br>
+	<form id="survey-form">
+    <div class="header">
+      <h1 id="title" class="title">Something on your mind?</h1>
+      <p id="description" class="description"><em>Send us your thoughts</em></p>
+      </div>
+		<div class="instructions"> 
+			<h3>Please note:</h3>
+				<ul id="notes" class="notes">
+					<li>Fields marked with * are required</li>
+					<li>You must be at least 16 years old to participate</li>
+			</ul></br>
+		</div>
+		<fieldset id="personalia">
+			<legend><strong>PERSONALIA</strong></legend>
+			<label id="name-label">Your name*: <input type="text" id="name" placeholder="Full name" required /></label>
+			<label id="number-label">Your age: <input type="number" id="number" min="16" max="100" placeholder="Optional" /></label>
+			<label id="email-label">Your e-mail*: <input type="email" id="email" placeholder="Valid address" required /></label>
+		</fieldset>
+		<fieldset id="work-details">
+			<legend><strong>WORK DETAILS</strong></legend>
+			<label id="dropdown">Current role:
+				<select>
+					<option value="">(select one)</option>
+					<option value="1">Trainee</option>
+					<option value="2">Analyst</option>
+					<option value="3">Project Manager</option>
+					<option value="4">Supervisor</option>
+					<option value="5">Executive</option>
+				</select>
+			</label>
+			<label class="select">Working hours: </label>
+				<input type="radio" name="working-hours" value="1"/>Part-time
+				<input type="radio" name="working-hours"value="2"/>Full-time
+			<label class="mark">Active projects: </label>
+				<input type="checkbox" class="check" value="1">Front-end</br>
+				<input type="checkbox" class="check" value="2">Back-end</br>
+				<input type="checkbox" class="check" value="3">Infrastructure
+		</fieldset>
+		<fieldset id="comments"><legend><strong>WHAT'S ON YOUR MIND?</strong></legend>
+			<textarea name="thoughts" rows="3" cols="54" placeholder="Tell us everything..." required></textarea>
+		</fieldset>	
+    <input id="submit" type="submit" value="Submit" class="submit-button">
+  <footer>
+    <p><b>By <a href="https://www.freecodecamp.org/project10nist">project10nist</a></b></p>
+  </footer>
+	</form>
+</div>
