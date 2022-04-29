@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Product Landing Page</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<header id="header">
+  <div id="logo">
+    <img src="https://project10nist.github.io/img/burn.jpg" alt="logo" id="header-img">
+  </div>
+  <nav id="nav-bar">
+    <h1>project10nist's picks</h1>
+    <ul>
+      <li><a class="nav-link" href="#cc">Codecademy</a></li>
+      <li><a class="nav-link" href="#fcc">freeCodeCamp</a></li>
+      <li><a class="nav-link" href="#ll">LinkedIn Learning</a></li>
+      <li><a class="nav-link" href="#per">Perlego</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+    
+  <div class="container">
+    
+    <section class="section" id="providers">
+      <h2>My choice providers:</h2>
+      <div class="grid">
+        <div class="icon">
+          <i class="material-icons">code</i>
+        </div>
+        <div class="info">
+          <h3 id="cc">Codecademy</h3>
+          <p>Free and Pro options available, with special pricing for students.</p>
+        </div>
+      </div>
+      <div class="grid">
+        <div class="icon">
+          <i class="material-icons">code</i>
+        </div>
+        <div class="info">
+          <h3 id="fcc">freeCodeCamp</h3>
+          <p>Project-based learning, totally free.</p>
+        </div>
+      </div>
+      <div class="grid">
+        <div class="icon">
+          <i class="material-icons">code</i>
+        </div>
+        <div class="info">
+          <h3 id="ll">LinkedIn Learning</h3>
+          <p>Great courses on specific tools and certifications, affordable monthly fee.</p>
+        </div>
+      </div>
+      <div class="grid">
+        <div class="icon">
+          <i class="material-icons">book</i>
+        </div>
+        <div class="info">
+          <h3 id="per">Perlego</h3>
+          <p>Textbooks galore for a modest monthly fee.</p>
+        </div>
+      </div>
+    </section>
+    
+    <section class="section" id="examples">
+      <h2>Learn to Code</h2>
+      <article class="more-info">
+        <figure>
+          <iframe width="501" height="280" src="https://www.youtube.com/embed/FswDqER1WLQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id="video"></iframe>
+          <figcaption>Learn to code with Codecademy</figcaption>
+        </figure>
+        <figure id="photo">
+          <img src="https://www.freecodecamp.org/static/wide-image-3cb329e8b3cae865be76746fbd069cd2.png" alt="freeCodeCamp students at a local study group in South Korea.">
+          <figcaption>freeCodeCamp students at a local study group in South Korea</figcaption>
+        </figure>
+      </article>
+    </section>
+  
+  </div> <!-- end of .container-->
+  
+    <section class="section">
+      <h2>Your pick isn't on the list?</h2>
+      <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <label for="email">Share the love:</label>
+        <input type="email" id="email" name="email" placeholder="Your favorite provider"></input><br>
+        <input type="submit" value="Submit" class="btn" id="submit">
+      </form>
+    </section>
+    
+</main>
+
+<footer>
+  <p>developed by <a href="https://project10nist.github.io/" target="_blank"><strong>project10nist</strong></a></p>
+</footer>
+<!-- partial -->
+  <script src='https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js'></script>
+</body>
+</html>
