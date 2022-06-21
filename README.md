@@ -1,6 +1,10 @@
 # freeCodeCamp-certs
 My projects for freeCodeCamp certifications
 
+Completed certs:
+
+    Responsive Web Design
+
 Active cert:
 
-    Responsive Web Design (Beta)
+    JavaScript Algorithms and Data Structures
